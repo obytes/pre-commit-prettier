@@ -3,7 +3,7 @@
     entry: prettier
     language: node
     files: \.(js)$
-    args: ['--write', '--single-quote', '--trailing-comma=all', '--jsx-bracket-same-line']
+    args: ['--write', '--single-quote', '--trailing-comma=all', '--jsx-bracket-same-line', '--bracket-spacing=false']
 
     # Use additional_dependencies to install the actual node package
     minimum_pre_commit_version: 0.12.0
